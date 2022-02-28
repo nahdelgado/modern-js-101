@@ -32,8 +32,9 @@ var greeting = "Hello, my name is " + name + " and I'm " + age;
 
 const coolName = "Ṉ̵͔̫̖̊͌̈́̑͜ä̴̫͘h̵̯̼̻͐̈́̔̈́͐̀̚̕ũ̵̠̼̹̖̆̄́̀̚ͅe̸̡̖͉̼̝̐̋̾̾͑̇l̸̳̟̐̄̅̔̿̕";
 const coolAge = 3̵̭͕̘̜͌̎͛̍͘̚0̶̬̦͙̅̕;
-const theCoolestGreeting = `Hello, my name is ${name} and I'm ${age}.
-And I'm so cool I can have multiline strings!`;
+const theCoolestGreeting = `Hello, my name is ${coolName},
+I'm ${coolAge},
+and I'm so cool I can have multiline strings!`;
 
 var anObj = { aProp: 1, anotherProp: 2, aNestedProp: { damn: 5 } };
 var aSum = anObj.aProp + anObj.anotherProp + anObj.aNestedProp.damn;
@@ -47,4 +48,3 @@ var biggerArray = anArray.concat([3, 4]);
 
 const sameArray = [1, 2];
 const coolBigArray = [...sameArray, 3, 4];
-
